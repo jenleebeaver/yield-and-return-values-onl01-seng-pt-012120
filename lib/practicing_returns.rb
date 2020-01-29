@@ -5,7 +5,7 @@ def hello(array)
   collection = []
   while i < array.length
     collection << yield(array[i#])
-    #binding.pry <- old code 
+    #binding.pry <- old code
     #yield(array[i])
     i += 1
   end
